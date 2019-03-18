@@ -3,10 +3,10 @@
 <pre>
 let a = 1
 a = 2
-</pre>
+
 const b = 1
 b = 2 // Uncaught SyntaxError "b" is read-only
-
+</pre>
 <h3>ES 6 Parâmetros de funções</h3>
 <pre>
 const multiply = (x, y = 1) => x * y
@@ -15,7 +15,7 @@ multiply(3, 2) // 6
 multiply(3) // 3
 </pre>
 
-<h3>ES6 Arrow functions e Destructing<h3>
+<h3>ES6 Arrow functions e Destructing</h3>
 <pre>
 const sum = (a, b) => {
     return a + b;
